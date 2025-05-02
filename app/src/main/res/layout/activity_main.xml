@@ -1,0 +1,36 @@
+<LinearLayout
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/tv1"
+        android:text="Fruits" />
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/cb1"
+        android:text="apple" />
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/cb2"
+        android:text="mango" />
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/cb3"
+        android:text="banana" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/btn"
+        android:text="click"
+        android:gravity="center"
+        android:onClick="click" />
+
+</LinearLayout>
